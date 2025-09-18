@@ -28,31 +28,40 @@ class Program
                 Console.WriteLine("You have guesses the number!");
                 Console.WriteLine($"guesses you took: {guesses}");
                 guesses = 0;
+
                 Console.WriteLine("Wanna play again?: ");
+
                 string answer = Console.ReadLine();
+
                 answer = answer.ToUpper();
 
                 if (answer == "Y" || answer == "YES" || answer == "TRUE")
                 {
                     playagain = true;
+
                 }
                 else
                 {
                     playagain = false;
+
                 }
-            } else if (guess > randomNumber)
+
+            }
+            else if (guess > randomNumber)
             {
                 Console.WriteLine("The number you guessed is too high");
-            } else if (guess < randomNumber)
+
+            }
+            else if (guess < randomNumber)
             {
                 Console.WriteLine("The number you used too low");
+
             }
 
             guesses++;
 
         }
 
-
-
     }
 }
+
