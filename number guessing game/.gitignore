@@ -1,0 +1,43 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio cache files
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.tlog
+*.vspscc
+*_i.c
+*_p.c
+*_h.h
+*.dbmdl
+*.bak
+*.backup
+*.tmp
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Azure
+PublishProfiles/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Others
+*.DS_Store
+Thumbs.db
